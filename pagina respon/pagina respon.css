@@ -1,0 +1,166 @@
+/*font-family: 'Concert One', cursive;*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.bet{
+	font-family: 'Dancing Script', cursive;
+	font-size: 22px;
+	color: #fff
+}
+
+body{font-family: sans-serif;
+	;background: #fff
+}
+header{font-family: 'Dancing Script', cursive;
+	width: 100%;
+	height:60px;
+	background: #ff809b;
+	color:#fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100000;
+
+}
+.contenedor{
+	width: 95%;
+	margin:auto;
+	margin-top:15px ;
+	
+}
+.h1{float: left;}
+header .contenedor{display: table;overflow: hidden;}
+main section{
+	width: 100%;
+	margin-bottom:25px; }	
+#banner{
+	margin-top:60px;
+	position: relative;
+}
+#banner img{
+	width: 100%;
+	height: 100%;
+}
+#banner .contenedor{
+	font-family: 'Playfair Display SC', serif;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translateX(-50%) translateY(-50%);
+	color:#ff055e}
+#banner h2{
+	font-size:15px ;
+}
+#banner p {
+	font-size:13px
+}
+#banner a {
+	display: block;
+	width:150px;
+	text-decoration: none;
+	padding:2px;
+	font-size:10px;
+	margin-top:3px; 
+	color:#ff6d7d;
+	border:1px solid #fff
+}
+#banner a:hover{
+	background:rgba(255,255,255,0.3);
+	transition: 2s;
+	cursor: pointer;
+}
+#bienvenidos h2{
+	text-align: center;
+	color:#F4A700  ;
+	font-family: 'Dancing Script';
+	font-size:37px;
+	margin: 10px
+}
+#bienvenidos p {
+	text-align: center;
+	margin:10px;
+	font-size: 20px;
+	font-family: 'Handlee', cursive;}
+#informacion {
+	opacity: .9;
+	padding:15px;
+	background:#ff6d7d ;
+	color: #fff;
+	font-family: 'Handlee', cursive;
+	text-align: center;
+}
+#informacion .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.info-img {
+	margin:15px
+}
+.info-img img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 6px solid #F4A700
+}
+footer .contenedor{
+	margin-bottom:20px; 
+display: flex;
+justify-content: center;
+text-align:center;
+flex-wrap: wrap;
+}
+footer a {
+	margin:8px;
+}
+.copy {
+	margin:20px;
+	font-family: 'Handlee', cursive;
+	font-size: 20px
+
+}
+@media (min-width:1024px){
+	.contenedor{
+		width: 935px
+	}
+}@media (min-width:488px){
+	#banner h2{
+		font-size:35px
+	}
+	#banner p {
+		font-size: 20px
+	}
+	#banner a {
+		font-size: 20px;
+		width: 250px
+	}
+}
+@media (min-height: 768px){
+	#banner {
+		height: 388px;
+		overflow: hidden;
+	}
+	#banner img {
+		height: auto
+	}
+}
+
+@media (min-width: 480px){
+	.info-img{
+		width:40% }
+@media (min-width: 1024px){
+	.info-img{
+		width: auto;
+	}
+}
+@media (min-width: 768px){
+	.sociales{
+		width: auto;}
+	}
+	footer .contenedor{
+		justify-content: space-between;
+	}
+}
